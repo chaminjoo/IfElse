@@ -3,14 +3,14 @@ function setup()
    createCanvas(800, 600);
    background(0);
    noFill();
-   stroke(255, 0, 0);
+   stroke(255, 255, 255);
    ellipse(400, 300, 100, 100);
 }
 
 
 function draw()
 {
-   background(255, 255, 255);
+   background(228, 2, 140);
    ellipse(300, 300, 300, 300);
 
 if (mouseX < 100) {
