@@ -11,7 +11,7 @@ function setup()
 function draw()
 {
    background(255, 255, 255);
-   ellipse(400, 400, 400, 400);
+   ellipse(300, 300, 300, 300);
 
 if (mouseX < 100) {
   rect(50, 200, 100, 100);
